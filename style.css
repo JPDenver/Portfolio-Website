@@ -72,6 +72,12 @@ h1, h2, h3{
 
 h2{
     padding: 10px;
+    font-size: 20pt;
+    
+}
+    .portfolio{
+    font-size: 35pt;
+    text-decoration: underline;
 }
 
 p{
@@ -93,18 +99,32 @@ img.enhanced-image{
     display: flex;
     flex-direction: column;
   }
+
+  .centered{
+
+  }
   
   .item {
     flex: 1;
     margin: 20px;
+ 
   }
-  
+     .centered{
+        margin: auto;
+        
+        
+        
+    }
   .item-double {
     flex: 2;
     margin: 20px;
   }
   .screenshot{
       flex:.5;
+  }
+  .smaller{
+      height: 50%;
+      width: 50%;
   }
 
   /* ---  (Desktop) Groups & Items --- */
@@ -121,3 +141,39 @@ img.enhanced-image{
     }
   }
   
+
+  form label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: arial;
+  }
+  
+  form input[type=text]{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  form input[type=email]{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form input[type=text]#email{
+    width: 51px;
+  }
+
+  form button{
+      margin: 10px;
+  }
+
+
+
+  footer p{
+      font-size: 25pt;
+      text-align: center;
+      
+  }
