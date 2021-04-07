@@ -3,9 +3,11 @@ body{
     background-color: #6c6d72;
 }
 
+
 section.alt-background{
-    margin: 10px;
+    margin: 20px;
     background-color: #2a2f49;
+    padding: 20px;
 }
 
 
@@ -180,4 +182,15 @@ img.enhanced-image{
       font-size: 25pt;
       text-align: center;
       
+  }
+
+  ul{
+      color: #fff;
+      display: table;
+      margin: 0 auto;
+      
+  }
+  
+  .services{
+      margin: auto;
   }
