@@ -14,10 +14,10 @@
 		<h1>Jeffrey Fager</h1>
 		<nav>
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 				
 
 			</ul>
@@ -26,23 +26,19 @@
 
 <main>
 	<!--Intro section about yourself-->
-	<secion>
+	<secion id="home">
 		<div class = "group">
 			<div class="item">
 				<img src="images/Headshot.jpg" alt="Jeff's portfolio photo" class="enhanced-image">
 			</div>
 			<div class="item">
-				<h1>About Myself</h1>
+				<h1>Introduction</h1>
 				<p>
-					My name is Jeff and I am aspiring Software Engineer. I have a decade of leadership experiece in my industry.
+					My name is Jeff and I am an aspiring Software Engineer living in Denver, Colorado. I have a decade of leadership experience in my industry.
 					I have been working full-time in the restaraunt industry most of my adult life while also 
 					getting an education and trying to be a professional mountain biker. 
-					My degree is in Elctrical Engineering from the first ever school focused on renewable energy,
+					I am very happy to be able to say that my degree is in Elctrical Engineering from the first ever school focused on renewable energy,
 					Ecotech Institute.
-				</p>
-				<p>
-					I also have a passion for the outdoors and the environment. I'm also a pretty avid
-					Mountain Biker. 
 				</p>
 			</div>
 		</div>
@@ -51,20 +47,21 @@
 	
 	
 	
-	<section class="alt-background">
-		<h2>Professional and Career Goals and Outlook</h2>
+	<section class="alt-background" id="about">
+		<h2>About me</h2>
 		<div class="group">
 			<div class="item-double">
 				<p>For me it's really time to take my problem solving and analytical thinking skills
-				to the next level. I've always been a very creative problem solver and not one to 
-				just let things be. If there's a problem with something new to me I thrive on 
-				figuring it out until I understand it myself and can learn how to fix it. 
+				to the next level. Programming and web development are an amazing opportunity for
+				me to share my talents and abiilties with a team of people who share similiar 
+				goals. I want to write programs that help lead to more conservative uses of energy
+				and design the websites that present them to the world. 
 				</p>
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section id="portfolio">
 		<h2 class="portfolio">Portfolio</h2>
 		<div class="group centered">
 			<div class="item smaller centered">
@@ -80,6 +77,8 @@
 				<p>"Current Weather" is an app that I made with Flutter and 
 					published on the Google play store.
 				</p>
+				<a href="https://play.google.com/store/apps/details?id=jp.com.WeatherApp">Click here to download it on Google play</a>
+
 			</div>
 
 		</div>
@@ -92,6 +91,7 @@
 				<p>This is a game that I made using Pygame, which is a python module
 					that allows you to make simple games.
 				</p>
+				<a href="https://github.com/JPDenver/SpaceshipVsAsteroids2">Click here to check it out on my Github</a>
 			</div>
 			<div class="item">
 				<img src="images/Capture-Asteroids.PNG" alt="placeholder photo for portfolio"
@@ -111,13 +111,24 @@
 					Software Engineering Bootcamp I had to write all of the 
 					JavaScript code to make this Ceasar Cyher work.
 				</p>
+				<a href="https://github.com/JPDenver/decoder-ring-project">Click here to check it out on my Github</a>
 			</div>
 
 		</div>
 	</section>
 	
-	<section class="alt-background">
+	<section class="alt-background form" id="contact">
+		<h2>Get in Contact</h2>
+		<div class="group">
 		<div class="item">
+			<h3>My contact info</h3>
+			<p class="contact">Email: Jeffrey.paul.den@gmail.com</p>
+			<p class="contact">Phone: 309-453-2351</p>
+			<a href="https://github.com/JPDenver">Click here to check out my Github</a>
+			<a href="hhttps://www.linkedin.com/in/jeffrey-paul-5802631b6/">Click here to check out my Linkedin</a>
+		</div>
+		<div class="item form contact">
+			<h3>Or enter your info</h3>
 		<form>
 			<label for="user-name">Name:</label>
 			<input 
@@ -155,6 +166,7 @@
 		  <form>
 			<button type="submit">Submit</button>
 		  </form>
+		</div>
 		</div>
 	</section>
 
