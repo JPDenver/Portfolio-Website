@@ -125,9 +125,9 @@ img.enhanced-image{
     flex: 2;
     margin: 20px;
   }
-  .screenshot{
+  /* .screenshot{
       flex:.5;
-  }
+  } */
   .smaller{
       height: 50%;
       width: 50%;
@@ -193,4 +193,8 @@ img.enhanced-image{
   
   .services{
       margin: auto;
+  }
+
+  a{
+      color: #fff;
   }
